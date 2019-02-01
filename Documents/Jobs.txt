@@ -1,0 +1,29 @@
+jobs 
+
+Joshua	Morley-Stone = JMS
+Nathan Glasper = NG
+Nicholas Taylor = NT
+Matei-Iulian Giurgiu = MIG
+
+programming side
+	Physics and Environment - NG & MIG
+	gameplay - JMS
+		lifes
+		weapons
+	controls - NT
+	sharders/ -all
+		lighting/
+		effects/
+		skybox
+	content pipline -NG
+	simple AI - JMS
+	sound 3D -
+
+art side
+	content - all
+		models
+		textures
+		effects
+	sound - NT
+writing 
+	report - all
