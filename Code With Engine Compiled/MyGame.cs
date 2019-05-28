@@ -44,7 +44,7 @@ namespace OpenGL_Game
         private float lastKeyPress = 0;
         private float stateEnterTime;
 
-        public MyGame() : base(1280, 760)
+        public MyGame() : base(1920, 1080)
         {
             Title = "We're All Doomed";
             gameInstance = this;
@@ -62,7 +62,7 @@ namespace OpenGL_Game
 
             entityManager.DeleteAllEntities();
             entity = new Entity("Main Menu Background", new ComponentUI("MainMenu.png"));
-            entity.transform.scale = new Vector3(1280, 760, 0);
+            entity.transform.scale = new Vector3(1920, 1080, 0);
             entity.transform.position = new Vector3(Width / 2, Height / 2, 0);
             entityManager.AddEntity(entity);
 
@@ -162,7 +162,7 @@ namespace OpenGL_Game
 
             entityManager.DeleteAllEntities();
             entity = new Entity("Game Over Background", new ComponentUI("GameOver.png"));
-            entity.transform.scale = new Vector3(1280, 760, 0);
+            entity.transform.scale = new Vector3(1920, 1080, 0);
             entity.transform.position = new Vector3(Width / 2, Height / 2, 0);
             entityManager.AddEntity(entity);
 
@@ -183,7 +183,7 @@ namespace OpenGL_Game
 
             entityManager.DeleteAllEntities();
             entity = new Entity("Game Over Background", new ComponentUI("GameWin.png"));
-            entity.transform.scale = new Vector3(1280, 760, 0);
+            entity.transform.scale = new Vector3(1920, 1080, 0);
             entity.transform.position = new Vector3(Width / 2, Height / 2, 0);
             entityManager.AddEntity(entity);
 
